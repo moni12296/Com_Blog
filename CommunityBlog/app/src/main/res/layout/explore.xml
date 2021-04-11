@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/background"
+        android:layout_width="567dp"
+        android:layout_height="879dp"
+        app:srcCompat="@drawable/blue_back"
+        tools:layout_editor_absoluteX="-78dp"
+        tools:layout_editor_absoluteY="3dp" />
+
+    <ImageButton
+        android:id="@+id/back button"
+        android:layout_width="55dp"
+        android:layout_height="59dp"
+        android:background="#000000"
+        app:srcCompat="@drawable/abc_vector_test"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="3dp" />
+
+    <TextView
+        android:id="@+id/explore"
+        android:layout_width="364dp"
+        android:layout_height="59dp"
+        android:background="#00BCD4"
+        android:fontFamily="@font/montserrat"
+        android:text="EXPLORE"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="3dp" />
+
+    <EditText
+        android:id="@+id/search"
+        android:layout_width="419dp"
+        android:layout_height="56dp"
+        android:ems="10"
+        android:hint="Search"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="62dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
